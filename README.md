@@ -9,3 +9,5 @@
 * Map interactable with quest marker and tooltip.
 * Re-skinned default UI.
 * Added localization of Nani text and managed text. Localized 1 language(UA). Other languages can be added. Export all localizable data to a spreadsheet.
+************************
+Unity version 2022.3.1f1
