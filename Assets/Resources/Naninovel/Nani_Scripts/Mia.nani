@@ -1,0 +1,97 @@
+
+@stop
+
+# Intro
+@stopBgm Title
+@back {Location1}
+@Char {NPC1Name}.Default
+@sfx GirlHello
+{NPC1Name}: Hello {PlayerName}!
+{PlayerName}: Hi!
+@Char {NPC1Name}.School_smile
+{NPC1Name}: Are You ready?
+{PlayerName}: Ready for what?
+@sfx GirlActually
+@Char {NPC1Name}.School_surprised
+{NPC1Name}: Are You forger {PlayerName}, today we are going to the BEACH!
+{NPC1Name}: You had promised!
+{PlayerName}: Sure, sure... I remember, I just...
+@char Mia.School_smile
+@sfx GirlLaught2
+{NPC1Name}: I have a new super cute bikini and I want to test it as soon as possible.
+{PlayerName}: It sounds great! And I have a surprise for You...
+@char Mia.School_surprised
+@sfx Girl_Okay_happy
+{NPC1Name}: What kind of? What is it?
+{PlayerName}: You will see later... I just need to visit my hotel room.
+@char Mia.School_smile
+@sfx GirlLaught2
+{NPC1Name}: Oh ok, I am so exited!
+{NPC1Name}: And by the way, can You please ask {NPC2Name}? Maybe she wants to join us.
+{PlayerName}: Yeah, sure no problem. Her room is beside mine.
+@sfx Girl_Okay_happy
+{NPC1Name}: Then see You later! And please hurry up!
+@sfx GirlSeeYou
+{PlayerName}: I am on my way...
+@Char {NPC1Name}.Default
+@Hide {NPC1Name}
+@resetText wait:false
+@set location1open=true
+@set questStep=T_Step1
+@set questMarker="{Location2}"
+@goto Map.CafeStreet
+@stop
+
+# Result
+@if npc1GetItem
+@goto .HappyEnd
+@else 
+@goto .AngryEnd
+
+# HappyEnd
+@char Mia.Bikini_smile
+@sfx GirlThankYou
+{NPC1Name}: Thank You! {PlayerName} You are the BEST!
+@char Lana.Angry
+{NPC2Name}: What an awkward moment... I`ll better go now.
+@hide Lana
+@goto Map.CafeStreet
+# AngryEnd
+{NPC1Name}: I am so dissapoited with You! I don't have a sunny mood anymore...
+{NPC1Name}: I`ll better stay here for some time.
+@goto Map.CafeStreet
+
+# OnWaitDialogueCheck
+@goto .OnWaitDialogueBeforeQuest if:!questFinalOpen
+@goto .OnWaitDialogueAfterQuest
+
+# OnWaitDialogueBeforeQuest
+@printer Bubble.Right pos:25,60 time:1
+@sfx GirlNotNow
+@set sayOnWait=Random("I am busy now!","Go!","Are You still here?")
+{sayOnWait}
+@hidePrinter Bubble wait:true time:{bubbleDuration}
+@stop
+
+# OnWaitDialogueAfterQuest
+@goto .AfterQuestCheck
+
+# AfterQuestCheck
+@if npc1GetItem
+@goto .HappyAfterQuest
+@else 
+@goto .AngryAfterQuest
+
+# HappyAfterQuest
+@printer Bubble.Right pos:25,60 time:1
+@set sayOnWait=Random("Thank You again!","You are cute!","You are the Best!")
+{sayOnWait}
+@hidePrinter Bubble wait:true time:{bubbleDuration}
+@stop
+
+# AngryAfterQuest
+@printer Bubble.Right pos:25,60 time:1
+@set sayOnWait=Random(" I am so angry!","Go away please!","Don`t wanna speek with You!")
+{sayOnWait}
+@hidePrinter Bubble wait:true time:{bubbleDuration}
+@stop

@@ -1,0 +1,70 @@
+; English <en> to German (Germany) <de-DE> localization document for `Mia` naninovel script
+
+# 68a96be2
+; {NPC1Name}: Hello {PlayerName}!
+
+# bc8c4a36
+; {PlayerName}: Hi!
+
+# f4b3738a
+; {NPC1Name}: Are You ready?
+
+# 89502573
+; {PlayerName}: Ready for what?
+
+# 66a978fa
+; {NPC1Name}: Are You forger {PlayerName}, today we are going to the BEACH!
+
+# 5c7ed8c4
+; {NPC1Name}: You had promised!
+
+# 8a3f450b
+; {PlayerName}: Sure, sure... I remember, I just...
+
+# 2c97c1d8
+; {NPC1Name}: I have a new super cute bikini and I want to test it as soon as possible.
+
+# eda0d21c
+; {PlayerName}: It sounds great! And I have a surprise for You...
+
+# 11e81ad
+; {NPC1Name}: What kind of? What is it?
+
+# d0dfa04e
+; {PlayerName}: You will see later... I just need to visit my hotel room.
+
+# 8115f41
+; {NPC1Name}: Oh ok, I am so exited!
+
+# a3ce6566
+; {NPC1Name}: And by the way, can You please ask {NPC2Name}? Maybe she wants to join us.
+
+# 7e709972
+; {PlayerName}: Yeah, sure no problem. Her room is beside mine.
+
+# 39523ca3
+; {NPC1Name}: Then see You later! And please hurry up!
+
+# 10ef1892
+; {PlayerName}: I am on my way...
+
+# ea7ed392
+; {NPC1Name}: Thank You! {PlayerName} You are the BEST!
+
+# 215b7eb5
+; {NPC2Name}: What an awkward moment... I`ll better go now.
+
+# 7f2ebcda
+; {NPC1Name}: I am so dissapoited with You! I don't have a sunny mood anymore...
+
+# 507df94a
+; {NPC1Name}: I`ll better stay here for some time.
+
+# 988570c8
+; {sayOnWait}
+
+# 988570c8
+; {sayOnWait}
+
+# 988570c8
+; {sayOnWait}

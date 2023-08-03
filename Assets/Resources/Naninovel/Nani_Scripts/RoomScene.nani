@@ -1,0 +1,49 @@
+# Check
+@goto .RoomNoQuest if:!haveQuest
+@goto .ItemRoom if:!haveItem
+@goto .CleanRoom  if:haveItem
+@stop
+    
+# ItemRoom
+@stopBgm
+@bgm WaitRoom
+@hideChars
+@hideUI MapUI
+@hideUI NPC1Button
+@hideUI NPC2Button
+@showUI MapButtonUI
+@showUI QuestUI
+@showUI RoomItemUI
+@set questStep=T_Step3
+@back {Location3}
+@printer Dialogue
+You are in room. Somewhere here You can find the gift.[skipInput]
+@stop
+
+# CleanRoom
+@stopBgm
+@bgm WaitRoom
+@hideChars
+@hideUI MapUI
+@showUI MapButtonUI
+@showUI QuestUI
+@set questMarker="{Location2}"
+@set questStep=T_Step4
+@back {Location3}
+@printer Dialogue
+You are in clean room[skipInput]
+@stop
+
+# RoomNoQuest
+@stopBgm
+@bgm WaitRoom
+@hideChars
+@hideUI MapUI
+@hideUI NPC1Button
+@showUI MapButtonUI
+@showUI QuestUI
+@back {Location3}
+@printer Dialogue
+Just a hotel room... What am I doing here?[skipInput]
+@stop
+

@@ -1,0 +1,41 @@
+; English <en> to Ukrainian (Ukraine) <uk-UA> localization document for `Lana` naninovel script
+
+# b419178a
+; {NPC2Name}: Oh Thank You! {PlayerName} You are the BEST!
+{NPC2Name}: Дякую! {PlayerName} Ти найкращий!
+
+# 7f2ebcda
+; {NPC1Name}: I am so dissapoited with You! I don't have a sunny mood anymore...
+{NPC1Name}: Я розчарована тобою. В мене більше не сонячний настрій...
+
+# 507df94a
+; {NPC1Name}: I`ll better stay here for some time.
+{NPC1Name}: Я краще трохи побуду тут наодинці.
+
+# 9c0a0bc9
+; {NPC2Name}: Okay, waiting for You at party!
+{NPC2Name}: Добре, чекатиму тебе на вечірці!
+
+# dc6f57eb
+; {NPC2Name}: See You later.
+{NPC2Name}: До зустрічі!
+
+# 3458fa63
+; {NPC2Name}: What an awkward moment...
+{NPC2Name}: Який незручний момент...
+
+# 9bed94d1
+; {NPC2Name}: I`ll better go now...
+{NPC2Name}: Я краще піду вже...
+
+# 988570c8
+; {sayOnWait}
+Я зараз зайнята!
+
+# 988570c8
+; {sayOnWait}
+Я зараз зайнята!
+
+# 988570c8
+; {sayOnWait}
+Я зараз зайнята!

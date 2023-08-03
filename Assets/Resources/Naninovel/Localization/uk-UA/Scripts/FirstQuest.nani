@@ -1,0 +1,141 @@
+; English <en> to Ukrainian (Ukraine) <uk-UA> localization document for `FirstQuest` naninovel script
+
+# dadf9fc3
+; {NPC2Name}: Hi {PlayerName}!
+{NPC2Name}: Привіт {PlayerName}!
+
+# 9eb1f5de
+; {NPC2Name}: Here is where You are!
+{NPC2Name}: Ось де ти!
+
+# 4090219
+; {PlayerName}: Hey!
+{PlayerName}: Хай!
+
+# aafa6634
+; {NPC2Name}: I am just looking for someone strong as You, to help me with boxes.
+{NPC2Name}: Мені якраз потрібен хтось такий сильний як ти, щоб допомогти з ящиками.
+
+# 41fd5984
+; {NPC2Name}: I am preparing for my Birthday party.
+{NPC2Name}: Я готуюсь до вечірки, з нагоди мого дня народження.
+
+# b57c4439
+; {NPC2Name}: But You know this, cause You are invited.
+{NPC2Name}: Але ж ти це знаєш, бо ти запрошений.
+
+# 3e829197
+; {PlayerName}: Yeah, sure! I remember - today is the DAY!
+{PlayerName}: Так, звичайно! Я пам'ятаю, що сьогодні саме цей ДЕНЬ!
+
+# 981be32a
+; {PlayerName}: Happy Birthday {NPC2Name}!
+{PlayerName}: З Днем Народження!
+
+# 356be3d1
+; {NPC2Name}: Thank You!
+{NPC2Name}: Дякую!
+
+# e8168cb2
+; {NPC2Name}: Ok, let`s work a bit. You can start with the box behind me.
+{NPC2Name}: Добре, час попрацювати трохи. Можеш почати з ящика який позаду мене.
+
+# 1c1d8c2d
+; {NPC2Name}: Well done!
+{NPC2Name}: Дуже добре!
+
+# 92e28c2e
+; {NPC2Name}: You help me a lot. Thanks.
+{NPC2Name}: Дякую за допомогу.
+
+# 5b82a094
+; {PlayerName}: We are going to the Beach with {NPC1Name}.
+{PlayerName}: Ми збираємось на пляж з Мією.
+
+# a7aed44b
+; {PlayerName}: Will You join us?
+{PlayerName}: Приєднаєшся до нас?
+
+# 6bdb4ae8
+; {NPC2Name}: No, I don't have time for that.
+{NPC2Name}: Ні, я нажаль не маю часу для цього.
+
+# 9f73bc5b
+; {NPC2Name}: But I need to speak with {NPC1Name}.
+{NPC2Name}: Але мені треба поговорити з Мією.
+
+# a1f6c5d2
+; {PlayerName}: She is near our favorite cafe.
+{PlayerName}: Вона біля нашого улюбленого кафе.
+
+# 4f45cff4
+; {NPC2Name}: Ok, I'll visit her soon. I need to fill up my energy with a cup of coffee.
+{NPC2Name}: Добре, я відвідаю її скоро. Требя відновити енергію чашкою кави.
+
+# b53eee83
+; {PlayerName}: Great, see You later!
+{PlayerName}: Чудово, тоді побачимось скоро!
+
+# 7e75ba8
+; {NPC2Name}: See You.
+{NPC2Name}: Побачимось!
+
+# 599d8a48
+; {PlayerName}: I am here alone!
+{PlayerName}: Я тут один...
+
+# 7b01c5c7
+; {NPC1Name}: You are finally here!
+{NPC1Name}: Нарешті ти тут!
+
+# 92b9322c
+; {NPC2Name}: Yeah, we have a great time with {NPC1Name}.
+{NPC2Name}: Ми з Мією гарно провели час.
+
+# ce8c2120
+; {NPC2Name}: {NPC1Name} will join my party at night!
+{NPC2Name}: Мія приєднається до моєї вечірки сьогодні ввечері!
+
+# 5b8030df
+; {PlayerName}: Great!
+{PlayerName}: Чудово!
+
+# e21638d2
+; {NPC1Name}: What are You holding in your hands?
+{NPC1Name}: Що ти тримаєш в руках?
+
+# e74d91
+; {NPC2Name}: Are You already brought a Birthday gift for me?
+{NPC2Name}: Це що мій подарунок на мій день народження?
+
+# 4d4c9798
+; {NPC1Name}: Or maybe, it is a surprise which You prepare for me? 
+{NPC1Name}: Чи можливо це той сюрприз про який ти говорив?
+
+# 810a67cc
+; @choice "Give gift to {NPC1Name}" set:npc1GetItem=true;haveItem=false goto:{NPC1Name}.Result
+@choice "Віддати Мії" set:npc1GetItem=true;haveItem=false goto:{NPC1Name}.Result
+
+# dabf32e4
+; @choice "Give gift to {NPC2Name}" set:npc2GetItem=true;haveItem=false goto:{NPC2Name}.Result
+@choice "Віддати Лані" set:npc2GetItem=true;haveItem=false goto:{NPC2Name}.Result
+
+# 97f20dce
+; @choice "I`ll keep it for myself..." set:npc1GetItem=false;npc2GetItem=false;haveItem=false
+@choice "Я залишу це собі..." set:npc1GetItem=false;npc2GetItem=false;haveItem=false
+
+# 4ced3832
+; {NPC1Name}: So there is no surprise for me?
+{NPC1Name}: То що немає ніякого сюрпризу?
+
+# 3458fa63
+; {NPC2Name}: What an awkward moment...
+{NPC2Name}: Якось незручно вийшло...
+
+# 9bed94d1
+; {NPC2Name}: I`ll better go now...
+{NPC2Name}: Я краще піду...
+
+# 3a3683ec
+; {NPC1Name}: Mee too. I don't have a sunny mood anymore...
+{NPC1Name}: Я теж. Щось в мене пропав сонячний настрій...

@@ -1,0 +1,4 @@
+# Check
+@goto FirstQuest.SpeakNPC2 if:!visitedLocation2
+@goto Map.Home_Outside if:!haveItem
+@goto FirstQuest.Home_Outside_Empty if:haveItem

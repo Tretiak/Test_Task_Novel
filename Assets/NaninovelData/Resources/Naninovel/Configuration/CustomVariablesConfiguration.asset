@@ -1,0 +1,53 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 050d909da8f293c4cac3351071715b4d, type: 3}
+  m_Name: CustomVariablesConfiguration
+  m_EditorClassIdentifier: 
+  PredefinedVariables:
+  - name: PlayerName
+    value: '" "'
+  - name: Location3
+    value: '"Room"'
+  - name: Location2
+    value: '"Home_Outside"'
+  - name: Location1
+    value: '"CafeStreet"'
+  - name: location1open
+    value: true
+  - name: location2open
+    value: true
+  - name: location3open
+    value: true
+  - name: visitedLocation2
+    value: false
+  - name: haveItem
+    value: false
+  - name: haveQuest
+    value: false
+  - name: npc1GetItem
+    value: false
+  - name: npc2GetItem
+    value: false
+  - name: NPC1Name
+    value: '"Mia"'
+  - name: NPC2Name
+    value: '"Lana"'
+  - name: bubbleDuration
+    value: 2
+  - name: sayOnWait
+    value: '" "'
+  - name: questStep
+    value: '" "'
+  - name: questFinalOpen
+    value: false
+  - name: questMarker
+    value: '" "'

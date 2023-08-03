@@ -1,0 +1,31 @@
+; English <en> to German (Germany) <de-DE> localization document for `Lana` naninovel script
+
+# b419178a
+; {NPC2Name}: Oh Thank You! {PlayerName} You are the BEST!
+
+# 7f2ebcda
+; {NPC1Name}: I am so dissapoited with You! I don't have a sunny mood anymore...
+
+# 507df94a
+; {NPC1Name}: I`ll better stay here for some time.
+
+# 9c0a0bc9
+; {NPC2Name}: Okay, waiting for You at party!
+
+# dc6f57eb
+; {NPC2Name}: See You later.
+
+# 3458fa63
+; {NPC2Name}: What an awkward moment...
+
+# 9bed94d1
+; {NPC2Name}: I`ll better go now...
+
+# 988570c8
+; {sayOnWait}
+
+# 988570c8
+; {sayOnWait}
+
+# 988570c8
+; {sayOnWait}

@@ -1,0 +1,63 @@
+
+@stop
+
+# HappyEnd
+@char Lana.Laugh
+@sfx GirlThankYou
+{NPC2Name}: Oh Thank You! {PlayerName} You are the BEST!
+@char Mia.Bikini_sad
+{NPC1Name}: I am so dissapoited with You! I don't have a sunny mood anymore...
+{NPC1Name}: I`ll better stay here for some time.
+{NPC2Name}: Okay, waiting for You at party!
+@char Lana.Smile
+@sfx GirlSeeYou
+{NPC2Name}: See You later.
+@hide Lana
+@goto Map.CafeStreet
+@stop
+
+# AngryEnd
+{NPC2Name}: What an awkward moment...
+{NPC2Name}: I`ll better go now...
+@stop
+
+# Result
+@if npc2GetItem
+@goto .HappyEnd
+@else 
+@goto .AngryEnd
+
+# OnWaitDialogueCheck
+@goto .OnWaitDialogueBeforeQuest if:!questFinalOpen
+@goto .OnWaitDialogueAfterQuest
+
+# OnWaitDialogueBeforeQuest
+@printer Bubble.Right pos:18,60 time:1
+@sfx GirlNotNow
+@set sayOnWait=Random("I am busy now!","Go!","Are You still here?")
+{sayOnWait}
+@hidePrinter Bubble wait:true time:{bubbleDuration}
+@stop
+
+# OnWaitDialogueAfterQuest
+@goto .AfterQuestCheck
+
+# AfterQuestCheck
+@if npc2GetItem
+@goto .HappyAfterQuest
+@else 
+@goto .AngryAfterQuest
+
+# HappyAfterQuest
+@printer Bubble.Right pos:18,60 time:1
+@set sayOnWait=Random("Thank You again!","You are cute!","You are the Best!")
+{sayOnWait}
+@hidePrinter Bubble wait:true time:{bubbleDuration}
+@stop
+
+# AngryAfterQuest
+@printer Bubble.Right pos:18,60 time:1
+@set sayOnWait=Random(" I am so angry!","Go away please!","Don`t wanna speak with You!")
+{sayOnWait}
+@hidePrinter Bubble wait:true time:{bubbleDuration}
+@stop

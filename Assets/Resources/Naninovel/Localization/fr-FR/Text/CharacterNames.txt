@@ -1,0 +1,5 @@
+; English <en> to French (France) <fr-FR> localization document for `CharacterNames` managed text document
+
+Lana: Lana
+Mia: Mia
+Player: {PlayerName}

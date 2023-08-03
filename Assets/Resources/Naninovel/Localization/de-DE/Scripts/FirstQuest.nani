@@ -1,0 +1,106 @@
+; English <en> to German (Germany) <de-DE> localization document for `FirstQuest` naninovel script
+
+# dadf9fc3
+; {NPC2Name}: Hi {PlayerName}!
+
+# 9eb1f5de
+; {NPC2Name}: Here is where You are!
+
+# 4090219
+; {PlayerName}: Hey!
+
+# aafa6634
+; {NPC2Name}: I am just looking for someone strong as You, to help me with boxes.
+
+# 41fd5984
+; {NPC2Name}: I am preparing for my Birthday party.
+
+# b57c4439
+; {NPC2Name}: But You know this, cause You are invited.
+
+# 3e829197
+; {PlayerName}: Yeah, sure! I remember - today is the DAY!
+
+# 981be32a
+; {PlayerName}: Happy Birthday {NPC2Name}!
+
+# 356be3d1
+; {NPC2Name}: Thank You!
+
+# e8168cb2
+; {NPC2Name}: Ok, let`s work a bit. You can start with the box behind me.
+
+# 1c1d8c2d
+; {NPC2Name}: Well done!
+
+# 92e28c2e
+; {NPC2Name}: You help me a lot. Thanks.
+
+# 5b82a094
+; {PlayerName}: We are going to the Beach with {NPC1Name}.
+
+# a7aed44b
+; {PlayerName}: Will You join us?
+
+# 6bdb4ae8
+; {NPC2Name}: No, I don't have time for that.
+
+# 9f73bc5b
+; {NPC2Name}: But I need to speak with {NPC1Name}.
+
+# a1f6c5d2
+; {PlayerName}: She is near our favorite cafe.
+
+# 4f45cff4
+; {NPC2Name}: Ok, I'll visit her soon. I need to fill up my energy with a cup of coffee.
+
+# b53eee83
+; {PlayerName}: Great, see You later!
+
+# 7e75ba8
+; {NPC2Name}: See You.
+
+# 599d8a48
+; {PlayerName}: I am here alone!
+
+# 7b01c5c7
+; {NPC1Name}: You are finally here!
+
+# 92b9322c
+; {NPC2Name}: Yeah, we have a great time with {NPC1Name}.
+
+# ce8c2120
+; {NPC2Name}: {NPC1Name} will join my party at night!
+
+# 5b8030df
+; {PlayerName}: Great!
+
+# e21638d2
+; {NPC1Name}: What are You holding in your hands?
+
+# e74d91
+; {NPC2Name}: Are You already brought a Birthday gift for me?
+
+# 4d4c9798
+; {NPC1Name}: Or maybe, it is a surprise which You prepare for me? 
+
+# 810a67cc
+; @choice "Give gift to {NPC1Name}" set:npc1GetItem=true;haveItem=false goto:{NPC1Name}.Result
+
+# dabf32e4
+; @choice "Give gift to {NPC2Name}" set:npc2GetItem=true;haveItem=false goto:{NPC2Name}.Result
+
+# 97f20dce
+; @choice "I`ll keep it for myself..." set:npc1GetItem=false;npc2GetItem=false;haveItem=false
+
+# 4ced3832
+; {NPC1Name}: So there is no surprise for me?
+
+# 3458fa63
+; {NPC2Name}: What an awkward moment...
+
+# 9bed94d1
+; {NPC2Name}: I`ll better go now...
+
+# 3a3683ec
+; {NPC1Name}: Mee too. I don't have a sunny mood anymore...

@@ -1,0 +1,78 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e98aa4b58b11e9d4ca9dd8a4bf7bb71d, type: 3}
+  m_Name: ScriptGraphState
+  m_EditorClassIdentifier: 
+  NodesState:
+  - scriptName: NameInput_Init
+    position:
+      serializedVersion: 2
+      x: 25
+      y: -62
+      width: 147
+      height: 101
+  - scriptName: Map
+    position:
+      serializedVersion: 2
+      x: 1564
+      y: -164
+      width: 161
+      height: 149
+  - scriptName: Title
+    position:
+      serializedVersion: 2
+      x: -106
+      y: -64
+      width: 71
+      height: 77
+  - scriptName: RoomScene
+    position:
+      serializedVersion: 2
+      x: 2006
+      y: 369
+      width: 156
+      height: 245
+  - scriptName: HallwayScene
+    position:
+      serializedVersion: 2
+      x: 1952
+      y: 661
+      width: 249
+      height: 173
+  - scriptName: FirstQuest
+    position:
+      serializedVersion: 2
+      x: 1442
+      y: 284
+      width: 217
+      height: 437
+  - scriptName: CafeScene
+    position:
+      serializedVersion: 2
+      x: 1947
+      y: 151
+      width: 195
+      height: 197
+  - scriptName: Lana
+    position:
+      serializedVersion: 2
+      x: 619
+      y: -255
+      width: 230
+      height: 485
+  - scriptName: Hochiko
+    position:
+      serializedVersion: 2
+      x: 593
+      y: 377
+      width: 230
+      height: 557

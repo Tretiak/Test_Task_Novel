@@ -1,0 +1,10 @@
+; English <en> to French (France) <fr-FR> localization document for `Script` managed text document
+
+T_Greeting1: Hey!
+T_Greeting2: Hello!
+T_Greeting3: Hi!
+T_Step1: Go speak with Lana
+T_Step2: Go to your room
+T_Step3: Find gift box
+T_Step4: Go outside
+T_Step5: Speak with girls near Cafe

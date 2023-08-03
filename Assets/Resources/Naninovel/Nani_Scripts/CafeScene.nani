@@ -1,0 +1,7 @@
+@goto Map.CafeStreet
+@stop
+
+# Check
+@goto Map.CafeStreet if:!haveItem
+@goto Map.CafeStreet if:!questFinalOpen
+@goto FirstQuest.FinalChoice if:haveItem

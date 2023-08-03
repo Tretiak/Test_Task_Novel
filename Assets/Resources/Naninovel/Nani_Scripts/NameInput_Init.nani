@@ -1,0 +1,5 @@
+@input PlayerName summary:"Enter Your name:"
+Please, enter your name.
+@stop
+@hidePrinter
+@goto {NPC1Name}.Intro

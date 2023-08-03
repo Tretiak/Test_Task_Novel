@@ -1,0 +1,122 @@
+# SpeakNPC2
+@stopBgm
+@set visitedLocation2=true
+@set location1open=true
+@hideUI QuestUI
+@hideUI NPC1Button wait:false
+@hideUI MapUI
+@hideChars wait:false
+@printer Dialogue
+@back {Location2}
+@char {NPC2Name}.Default pos:70,-7
+@sfx GirlHey
+{NPC2Name}: Hi {PlayerName}!
+@char Lana.Smile
+{NPC2Name}: Here is where You are!
+{PlayerName}: Hey!
+@char Lana.Default
+@sfx GirlLaught2
+{NPC2Name}: I am just looking for someone strong as You, to help me with boxes.
+@char Lana.Dirty
+@sfx GirlActually
+{NPC2Name}: I am preparing for my Birthday party.
+@char Lana.Default
+{NPC2Name}: But You know this, cause You are invited.
+{PlayerName}: Yeah, sure! I remember - today is the DAY!
+@char Lana.Smile
+{PlayerName}: Happy Birthday {NPC2Name}!
+@char Lana.Laugh
+@sfx GirlThankYou
+{NPC2Name}: Thank You!
+@char Lana.Default
+@sfx Girl_Okay_happy
+{NPC2Name}: Ok, let`s work a bit. You can start with the box behind me.
+@bgm MiniGameLoop
+@minigame
+@goto .SpeakNPC2_After_Game
+
+# SpeakNPC2_After_Game
+@stopBgm MiniGameLoop
+@char Lana.Smile
+@sfx GirlLaught2
+{NPC2Name}: Well done!
+{NPC2Name}: You help me a lot. Thanks.
+@sfx GirlThankYou
+{PlayerName}: We are going to the Beach with {NPC1Name}.
+{PlayerName}: Will You join us?
+@sfx GirlActually
+{NPC2Name}: No, I don't have time for that.
+{NPC2Name}: But I need to speak with {NPC1Name}.
+{PlayerName}: She is near our favorite cafe.
+@sfx Girl_Okay_happy
+{NPC2Name}: Ok, I'll visit her soon. I need to fill up my energy with a cup of coffee.
+{PlayerName}: Great, see You later!
+@char Lana.Default
+@sfx GirlSeeYou
+{NPC2Name}: See You.
+@set haveQuest=true
+@set questStep=T_Step2
+@set questMarker="{Location3}"
+@goto Map.Home_Outside 
+
+# Take_Item_Location3
+@goto Map.Room
+@stop
+
+# Home_Outside_Empty
+@hideChars wait:false
+@hideUI MapUI
+@showUI MapButtonUI
+@hidePrinter
+@back {Location2}
+@printer Dialogue
+{PlayerName}: I am here alone!
+@set questStep=T_Step5
+@set questMarker="{Location1}"
+@set questFinalOpen=true
+@goto Map.Home_Outside_Empty
+@stop
+
+# FinalChoice
+@stopBgm
+@set questMarker="none"
+@hideUI QuestUI
+@printer Dialogue
+@back CafeStreet
+@char {NPC2Name}.Default tint:white
+@char {NPC1Name}.Bikini_embarrassed tint:white
+@sfx GirlHey
+{NPC1Name}: You are finally here!
+{NPC2Name}: Yeah, we have a great time with {NPC1Name}.
+@sfx GirlLaught2
+@char Lana.Smile
+@char Mia.Bikini_smile
+{NPC2Name}: {NPC1Name} will join my party at night!
+{PlayerName}: Great!
+@char Lana.Default
+@char Mia.Bikini_embarrassed
+{NPC1Name}: What are You holding in your hands?
+{NPC2Name}: Are You already brought a Birthday gift for me?
+@sfx GirlActually
+{NPC1Name}: Or maybe, it is a surprise which You prepare for me? 
+@choice "Give gift to {NPC1Name}" set:npc1GetItem=true;haveItem=false goto:{NPC1Name}.Result
+@choice "Give gift to {NPC2Name}" set:npc2GetItem=true;haveItem=false goto:{NPC2Name}.Result
+@choice "I`ll keep it for myself..." set:npc1GetItem=false;npc2GetItem=false;haveItem=false
+@stop
+
+# AfterQuestScene
+@char Lana.Angry
+@char Mia.Bikini_sad
+{NPC1Name}: So there is no surprise for me?
+{NPC2Name}: What an awkward moment...
+{NPC2Name}: I`ll better go now...
+{NPC1Name}: Mee too. I don't have a sunny mood anymore...
+@hide {NPC2Name}
+@goto Map.CafeStreet
+@stop
+
+# Location1_NPC1_NPC2
+
+# End
+
+@stop

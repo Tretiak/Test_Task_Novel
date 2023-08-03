@@ -1,0 +1,93 @@
+; English <en> to Ukrainian (Ukraine) <uk-UA> localization document for `Mia` naninovel script
+
+# 68a96be2
+; {NPC1Name}: Hello {PlayerName}!
+{NPC1Name}: Привіт {PlayerName}!
+
+# bc8c4a36
+; {PlayerName}: Hi!
+{PlayerName}: Хай!
+
+# f4b3738a
+; {NPC1Name}: Are You ready?
+{NPC1Name}: Ти готовий?
+
+# 89502573
+; {PlayerName}: Ready for what?
+{PlayerName}: Готовий до чого?
+
+# 66a978fa
+; {NPC1Name}: Are You forger {PlayerName}, today we are going to the BEACH!
+{NPC1Name}: Ти що забув {PlayerName}, сьогодні пляжний день!
+
+# 5c7ed8c4
+; {NPC1Name}: You had promised!
+{NPC1Name}: Ти ж обіцяв!
+
+# 8a3f450b
+; {PlayerName}: Sure, sure... I remember, I just...
+{PlayerName}: Так, звичайно... Я пам'ятаю, я просто...
+
+# 2c97c1d8
+; {NPC1Name}: I have a new super cute bikini and I want to test it as soon as possible.
+{NPC1Name}: В мене є новеньке супер круте бікіні, яке я хочу випробувати як можна скоріше.
+
+# eda0d21c
+; {PlayerName}: It sounds great! And I have a surprise for You...
+{PlayerName}: Звучить добре! І у мене дня тебе є сюрприз...
+
+# 11e81ad
+; {NPC1Name}: What kind of? What is it?
+{NPC1Name}: Який? Що це?
+
+# d0dfa04e
+; {PlayerName}: You will see later... I just need to visit my hotel room.
+{PlayerName}: Побачиш пізніше... Мені ще треба сходити в свою кімнату в готелі.
+
+# 8115f41
+; {NPC1Name}: Oh ok, I am so exited!
+{NPC1Name}: Добре, я така схвильована!
+
+# a3ce6566
+; {NPC1Name}: And by the way, can You please ask {NPC2Name}? Maybe she wants to join us.
+{NPC1Name}: І до речі, спитай будь ласка Мію чи не хоче вона до нас приєднатися?
+
+# 7e709972
+; {PlayerName}: Yeah, sure no problem. Her room is beside mine.
+{PlayerName}: Добре, без проблем. Її кімната якраз поруч з моєю.
+
+# 39523ca3
+; {NPC1Name}: Then see You later! And please hurry up!
+{NPC1Name}: Тоді побачимось пізніше! І будь ласка не зволікай!
+
+# 10ef1892
+; {PlayerName}: I am on my way...
+{PlayerName}: Уже іду...
+
+# ea7ed392
+; {NPC1Name}: Thank You! {PlayerName} You are the BEST!
+{NPC1Name}: Дякую! {PlayerName} ти найкращий!
+
+# 215b7eb5
+; {NPC2Name}: What an awkward moment... I`ll better go now.
+{NPC2Name}: Якось незручно вийшло... Я краще піду.
+
+# 7f2ebcda
+; {NPC1Name}: I am so dissapoited with You! I don't have a sunny mood anymore...
+{NPC1Name}: Я розчарована! щось у мене вже не сонячний настрій...
+
+# 507df94a
+; {NPC1Name}: I`ll better stay here for some time.
+{NPC1Name}: Я краще побуду наодинці деякий час.
+
+# 988570c8
+; {sayOnWait}
+Я зараз зайнята!
+
+# 988570c8
+; {sayOnWait}
+Я зараз зайнята!
+
+# 988570c8
+; {sayOnWait}
+Я зараз зайнята!

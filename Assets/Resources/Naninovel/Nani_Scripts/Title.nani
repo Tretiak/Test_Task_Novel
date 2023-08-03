@@ -1,0 +1,5 @@
+@back City time:0
+@bgm Title
+@spawn Rain wait:false
+@char {NPC2Name} pos:20,0 scale:0.7
+@stop

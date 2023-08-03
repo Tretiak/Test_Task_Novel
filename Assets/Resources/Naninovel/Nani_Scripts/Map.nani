@@ -1,0 +1,42 @@
+
+# CafeStreet
+@stopBgm
+@bgm WaitCafeStreet
+@printer Dialogue
+@hideChars wait:false
+@hideUI MapUI
+@hideUI NPC2Button
+@showUI MapButtonUI
+@showUI NPC1Button wait:false
+@showUI QuestUI if:!questFinalOpen
+@hidePrinter
+@back {Location1}
+@stop
+
+# Home_Outside
+@stopBgm
+@bgm WaitHallway2
+@printer Dialogue
+@hideChars
+@hideUI MapUI
+@hideUI NPC1Button wait:false
+@hideUI RoomItemUI
+@showUI MapButtonUI
+@showUI NPC2Button
+@showUI QuestUI if:!questFinalOpen
+@hidePrinter
+@back {Location2}
+@stop
+
+# Home_Outside_Empty
+@stopBgm
+@bgm WaitHallway2
+@printer Dialogue
+@hideChars
+@hideUI MapUI
+@hideUI NPC1Button wait:false
+@showUI MapButtonUI
+@showUI QuestUI
+@hidePrinter
+@back {Location2}
+@stop 

@@ -1,0 +1,33 @@
+; English <en> to Ukrainian (Ukraine) <uk-UA> localization document for `Hochiko` naninovel script
+
+# 6a3ab43f
+; Hochiko: Hello {PlayerName}!
+Hochiko: Хай {PlayerName}!
+
+# bc8c4a36
+; {PlayerName}: Hi!
+{PlayerName}: Привіт!
+
+# cb99bf66
+; Hochiko: Are You ready?
+
+# 89502573
+; {PlayerName}: Ready for what?
+
+# fe868542
+; Hochiko: Are You forger {PlayerName}, today we are going to the BEACH!
+
+# f2a10944
+; Hochiko: I am happy! {PlayerName} You are the BEST!
+
+# f9161071
+; Hochiko: I am so dissapoited with You! {PlayerName} You make a wrong choice!
+
+# 988570c8
+; {sayOnWait}
+
+# 988570c8
+; {sayOnWait}
+
+# 988570c8
+; {sayOnWait}

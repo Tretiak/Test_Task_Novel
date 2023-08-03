@@ -1,0 +1,31 @@
+using DTT.Runtime_Utilities.Runtime.Extensions;
+using UnityEngine;
+
+namespace DTT.Runtime_Utilities.Demo.Scripts
+{
+    public class EnumBehaviour : MonoBehaviour
+    {
+        /// <summary>
+        /// An enum type for testing character casting.
+        /// </summary>
+        public enum CharacterEnum
+        {
+            ONE = 'o',
+            TWO = 't',
+            THREE = 'r'
+        }
+
+        [SerializeField]
+        private CharacterEnum _character;
+
+        private void Awake()
+        {
+            // Retrieve the next value. It will loop around if at the last value.
+            CharacterEnum next = _character.Next();
+
+            // Retrieve the previous value. It will loop around if at the first value.
+            CharacterEnum previous = _character.Previous();
+        }
+    }
+
+}

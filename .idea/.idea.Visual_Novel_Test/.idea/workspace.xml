@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="b956427f-8247-41e3-956f-266c63cdc4e5" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/Assets/Nani_Scripts/First.nani" />
+        <option value="$PROJECT_DIR$/Assets/Nani_Scripts/FirstDialogWithNPC_Scene_02.nani" />
+        <option value="$PROJECT_DIR$/Assets/Nani_Scripts/Title.nani" />
+        <option value="$PROJECT_DIR$/Assets/Code/MapUI.cs" />
+        <option value="$PROJECT_DIR$/Assets/Code/MapCloseButton.cs" />
+        <option value="$PROJECT_DIR$/Assets/Code/Inventory/InventoryGrid.cs" />
+        <option value="$PROJECT_DIR$/Assets/Code/Inventory/InventorySlot.cs" />
+        <option value="$PROJECT_DIR$/Assets/Code/Inventory/InventoryItem.cs" />
+        <option value="$PROJECT_DIR$/Assets/Code/Inventory/InventoryFunctions.cs" />
+        <option value="$PROJECT_DIR$/Assets/Code/Inventory/InventoryGridSlot.cs" />
+        <option value="$PROJECT_DIR$/Assets/Code/Inventory/InventoryUI.cs" />
+        <option value="$PROJECT_DIR$/Assets/Code/Inventory/InventoryManager.cs" />
+        <option value="$PROJECT_DIR$/Assets/Nani_Scripts/FirstDialogWithNPC2_Scene_02.nani" />
+        <option value="$PROJECT_DIR$/Assets/Code/Quest/QuestStep.cs" />
+        <option value="$PROJECT_DIR$/Assets/Code/Quest/QuestConfig.cs" />
+        <option value="$PROJECT_DIR$/Assets/Code/Quest/QuestEvents.cs" />
+        <option value="$PROJECT_DIR$/Assets/Code/Quest/MapUI.cs" />
+        <option value="$PROJECT_DIR$/Assets/Code/ServicesTest.cs" />
+        <option value="$PROJECT_DIR$/Assets/Code/CustomServiceTest.cs" />
+        <option value="$PROJECT_DIR$/Assets/Code/MiniGameService.cs" />
+        <option value="$PROJECT_DIR$/Assets/Code/QuestService.cs" />
+        <option value="$PROJECT_DIR$/Assets/Code/Quest/QuestInfo.cs" />
+        <option value="$PROJECT_DIR$/Assets/Code/Quest/Quest.cs" />
+        <option value="$PROJECT_DIR$/Assets/Code/Quest/QuestService.cs" />
+        <option value="$PROJECT_DIR$/Assets/Code/Quest/QuestMapUI.cs" />
+        <option value="$PROJECT_DIR$/Assets/Nani_Scripts/Lana.nani" />
+        <option value="$PROJECT_DIR$/Assets/Code/Quest/QuestManager.cs" />
+        <option value="$PROJECT_DIR$/Assets/Code/Quest/QuestTrigger.cs" />
+        <option value="$PROJECT_DIR$/Assets/Code/Quest/QuestUI.cs" />
+        <option value="$PROJECT_DIR$/Assets/Code/Quest/QuestUIEvents.cs" />
+        <option value="$PROJECT_DIR$/Assets/Nani_Scripts/NameInput_Init.nani" />
+        <option value="$PROJECT_DIR$/Assets/Nani_Scripts/Intro_Scene_01.nani" />
+        <option value="$PROJECT_DIR$/Assets/Nani_Scripts/CafeScene.nani" />
+        <option value="$PROJECT_DIR$/Assets/Nani_Scripts/RoomScene.nani" />
+        <option value="$PROJECT_DIR$/Assets/Nani_Scripts/Map.nani" />
+        <option value="$PROJECT_DIR$/Assets/Nani_Scripts/FirstQuest.nani" />
+        <option value="$PROJECT_DIR$/Assets/Nani_Scripts/HallwayScene.nani" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="2SpmqzIoI7DgpUWNBS2VtLFgQQs" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="Discover.Launch.Via.Unity" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RunManager" selected="Attach to Unity Editor.Attach to Unity Editor">
+    <configuration name="Attach to Unity Editor &amp; Play" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="UNITY_ATTACH_AND_PLAY" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
+      <option name="allowRunningInParallel" value="false" />
+      <option name="listenPortForConnections" value="false" />
+      <option name="pid" />
+      <option name="selectedOptions">
+        <set />
+      </option>
+      <method v="2" />
+    </configuration>
+    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
+      <option name="allowRunningInParallel" value="false" />
+      <option name="listenPortForConnections" value="false" />
+      <option name="pid" />
+      <option name="selectedOptions">
+        <set />
+      </option>
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="b956427f-8247-41e3-956f-266c63cdc4e5" name="Default Changelist" comment="" />
+      <created>1689852094856</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1689852094856</updated>
+      <workItem from="1689852100862" duration="10094000" />
+      <workItem from="1689930669090" duration="3270000" />
+      <workItem from="1689937572689" duration="15422000" />
+      <workItem from="1690018292364" duration="22841000" />
+      <workItem from="1690104358445" duration="21663000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="UnityProjectConfiguration" hasMinimizedUI="true" />
+  <component name="UnityUnitTestConfiguration" currentTestLauncher="EditMode" />
+  <component name="VcsManagerConfiguration">
+    <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="695" y="322" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1690115371958">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="695" y="322" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1690115371958" />
+    <state x="776" y="210" key="RiderGenerateDialog" timestamp="1690020335430">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="776" y="210" key="RiderGenerateDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1690020335430" />
+  </component>
+</project>

@@ -1,0 +1,10 @@
+; English <en> to German (Germany) <de-DE> localization document for `RoomScene` naninovel script
+
+# 1f94f332
+; You are in room. Somewhere here You can find the gift.[skipInput]
+
+# fadfe995
+; You are in clean room[skipInput]
+
+# d4a51e3b
+; Just a hotel room... What am I doing here?[skipInput]

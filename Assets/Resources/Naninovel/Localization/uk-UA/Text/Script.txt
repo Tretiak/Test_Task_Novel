@@ -1,0 +1,10 @@
+; English <en> to Ukrainian (Ukraine) <uk-UA> localization document for `Script` managed text document
+
+T_Greeting1: Hey!
+T_Greeting2: Hello!
+T_Greeting3: Hi!
+T_Step1: Поговори з Ланою
+T_Step2: Іди в свою кімнату
+T_Step3: Знайди подарунок
+T_Step4: Вийди на двір
+T_Step5: Поговори з дівчатами

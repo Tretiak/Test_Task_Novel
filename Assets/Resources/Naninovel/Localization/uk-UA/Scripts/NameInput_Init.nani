@@ -1,0 +1,9 @@
+; English <en> to Ukrainian (Ukraine) <uk-UA> localization document for `NameInput_Init` naninovel script
+
+# 4544459f
+; @input PlayerName summary:"Enter Your name:"
+@input PlayerName summary:"Введіть Ваше Ім'я:"
+
+# af0bc7c7
+; Please, enter your name.
+Будь ласка введіть Ваше ім'я.
